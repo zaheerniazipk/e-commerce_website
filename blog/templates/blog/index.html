@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+<!-- Page Title -->
+{% block title %}Blog Homepage{% endblock %}
+
+
+<!-- Page Body -->
+{% block body %}
+
+{% load static %}
+
+<a href="{% static 'blog/static.txt' %}">Click me to open static file</a>
+
+{% endblock %}
