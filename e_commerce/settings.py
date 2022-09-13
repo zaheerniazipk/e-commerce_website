@@ -59,6 +59,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'e_commerce.urls'
 
+
+# MEDIA Directory
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_URL = '/media/'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
