@@ -12,8 +12,8 @@
 }
 
 .col-md-3 img {
-    width: 100%;
-    height: auto;
+    width: 255px;
+    height: 255px;
 }
 
 body .carousel-indicator li {
@@ -21,7 +21,7 @@ body .carousel-indicator li {
 }
 
 body .carousel-indicators {
-    bottom: 0;
+    bottom: -50px;
 }
 
 body .carousel-control-prev-icon,

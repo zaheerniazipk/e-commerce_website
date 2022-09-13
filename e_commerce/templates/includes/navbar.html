@@ -17,6 +17,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'shop:shop-home'%}">Shop</a>
                 </li>
+                <li class="nav-item dropdown bg-dark">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Other
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{% url 'shop:about-us' %}">About</a>
+                        <a class="dropdown-item" href="#">Contact</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
             </ul>
         </div>
         <form class="d-flex">
