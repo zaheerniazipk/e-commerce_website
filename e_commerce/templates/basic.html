@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>{% block title %}Default Title{% endblock %}</title>
+
+    <!-- CSS Stylesheets -->
+    {% block css %}
+    {% include 'includes/css_resources.html' %}
+    {% endblock %}
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    {% include 'includes/navbar.html' %}
+
+    <!-- Page Body -->
+    {% block body %} {% endblock %}
+
+    <!-- JS Scripts -->
+    {% block js-script %}
+    {% include 'includes/js_resources.html' %}
+    {% endblock %}
+
+</body>
+
+</html>
